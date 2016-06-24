@@ -16,6 +16,10 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+/**
+ * Created by Prasad Shirvandkar on 24/06/16.
+ */
+
 public class AboutActivity extends AppCompatActivity implements View.OnClickListener {
 
     Toolbar toolbar;
