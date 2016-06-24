@@ -1,0 +1,17 @@
+<html>
+<style type="text/css">
+    body {
+    font-family: sans-serif;
+    }
+</style>
+
+<body>
+
+     	<p><b><strong>Version 1.0</strong></b></p>
+        <ul>
+            <li>This New ChangeLog Dialog</li>
+			<li>Initial Commit</li>
+        </ul>
+
+</body>
+</html>

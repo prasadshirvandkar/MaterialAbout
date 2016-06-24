@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_about1"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="6dp"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar_about1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="2.0dip"
+            android:layout_margin="2dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <include layout="@layout/developer_card_one"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_margin="4dp"/>
+
+                <include layout="@layout/developer_card_two"
+                    android:layout_weight="0.5"
+                    android:layout_margin="4dp"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:layout_margin="2dp">
+
+                <include layout="@layout/developer_card_three"
+                    android:layout_weight="0.5"
+                    android:layout_margin="4dp"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"/>
+
+                <include layout="@layout/developer_card_two"
+                    android:layout_weight="0.5"
+                    android:layout_margin="4dp"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

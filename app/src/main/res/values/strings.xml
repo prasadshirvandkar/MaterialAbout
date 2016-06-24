@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Material About</string>
+    <string name="version">Version</string>
+    <string name="rate">Rate</string>
+    <string name="if_you_like_the_app_please_do_rate_it">If you like the app, please do rate it.</string>
+    <string name="changelog">Changelog</string>
+    <string name="licenses">Licenses</string>
+    <string name="developer">Developer</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_place_of_living">Your Place of Living</string>
+    <string name="add_to_google_plus_circles">Add to Google Plus Circles</string>
+    <string name="follow_on_github">Follow on Github</string>
+    <string name="follow_on_twitter">Follow on Twitter</string>
+    <string name="more_apps">More Apps</string>
+    <string name="support">Support</string>
+    <string name="report_bugs_feedback">Report Bugs/Feedback</string>
+    <string name="report_bugs_or_request_new_features">Report Bugs or request new features.</string>
+    <string name="translators">Translators</string>
+    <string name="translators_who_helped_in_translating_the_app">Translators who helped in translating the App.</string>
+    <string name="donate">Donate</string>
+    <string name="if_you_think_i_deserve_to_get_paid_for_my_work_you_can_leave_me_a_few_dollars_here">If you think, I deserve to get paid for my work, you can leave me a few dollars here.</string>
+    <string name="your_description">Your Description</string>
+    <string name="your_role">Your Role</string>
+    <string name="google_plus">google plus</string>
+    <string name="github">github</string>
+    <string name="apps">apps</string>
+    <string name="about">About</string>
+    <string name="developers">Developers</string>
+    <string name="twitter">Twitter</string>
+
+    <string name="desc">I am Student, pursuing Information Technology and an Android Enthusiast and Developer.\nI have developed this About Screen and Many Other Apps on Google Play Store which you can find more about by Clicking MY APPS.\nYou can also check my other Projects on Github.\n\nDesigned and Developed by:\n<b>Prasad Shirvandkar</b></string>
+
+</resources>
