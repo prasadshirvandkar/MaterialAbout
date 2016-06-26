@@ -1,7 +1,7 @@
 <b>Material About Layout</b> 
 
 This is a Simple Template Layout for Material Design About Screen on Android. Saves your time in making About Screen Layouts for your App.<br>
-You cam add or remove the layouts in the Project.
+You can add or remove the layouts in the Project.
 It is fully Customizable to whatever layouts.<br>
 You will just have to change texts according to your App.<br>
 You will also have to change the AboutActivity and Developer Class Files according to Required Information.
